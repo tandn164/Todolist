@@ -1,0 +1,13 @@
+strings:
+  inputs: ../Todolist/Resources/ja.lproj
+  filter: .+\.strings$
+  outputs:
+    - templatePath: stringsTemplate.stencil
+      output: ../Todolist/Resources/Generated/Localizable.swift
+xcassets:
+  inputs:
+    - ../Todolist/Resources/Assets.xcassets
+  outputs:
+    - templatePath: assetsTemplate.stencil
+      output: ../Todolist/Resources/Generated/Assets.swift
+
