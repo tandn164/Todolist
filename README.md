@@ -1,1 +1,1 @@
-# iOS Base for MVC struct
+# iOS Todolist Application
